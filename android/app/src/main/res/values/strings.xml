@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">lunch-logger</string>
+    <string name="title_activity_main">lunch-logger</string>
+    <string name="package_name">app.lovable.ed21ef9624f2408a8f6a62cbe03d3d2e</string>
+    <string name="custom_url_scheme">app.lovable.ed21ef9624f2408a8f6a62cbe03d3d2e</string>
+</resources>
