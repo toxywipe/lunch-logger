@@ -14,6 +14,7 @@ import Statistics from "./pages/Statistics";
 import Settings from "./pages/Settings";
 import Layout from "./components/Layout";
 
+// Créer un nouveau QueryClient
 const queryClient = new QueryClient();
 
 const App = () => (
