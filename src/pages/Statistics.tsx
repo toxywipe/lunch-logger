@@ -218,7 +218,7 @@ const Statistics = () => {
                     <XAxis dataKey="date" />
                     <YAxis allowDecimals={false} />
                     <Tooltip formatter={(value, name) => [
-                      name === 'count' ? `${value} repas` : `${value.toFixed(2)}€`,
+                      name === 'count' ? `${value} repas` : `${typeof value === 'number' ? value.toFixed(2) : value}€`,
                       name === 'count' ? 'Nombre de repas' : 'Valeur'
                     ]} />
                     <Legend />
